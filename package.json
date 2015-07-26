@@ -10,5 +10,9 @@
   "license": "MIT",
   "dependencies": {
     "react": "^0.13.3"
+  },
+  "repository": {
+     "type": "git",
+     "url": "https://github.com/AndrewGuenther/Accelerator.git"
   }
 }
