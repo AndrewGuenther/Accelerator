@@ -64,7 +64,7 @@ Here's what the resulting HTML will look like:
             <h1 data-reactid=".hi3kxtgbnk.0">What the Code</h1>
          </div>
       </div>
-         <script>var APP_PROPS = {"name": "Andrew"};</script>
+      <script>var APP_PROPS = {"name": "Andrew"};</script>
    </body>
 </html>
 ```
@@ -207,7 +207,7 @@ And Accelerator will use it to generate a page based on this:
 <html>
    <head_elem />
    <body>
-      <div id="content>
+      <div id="content">
          <view_elem />
       </div>
       <post_elem />
