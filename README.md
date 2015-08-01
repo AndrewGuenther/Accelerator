@@ -174,11 +174,11 @@ So *now* what does our HTML look like?
             <h1 data-reactid=".hi3kxtgbnk.0">What the Code</h1>
          </div>
       </div>
+      <script>var APP_PROPS = {"name": "Andrew"};</script>
       <div>
          <script src="http://fb.me/react-0.13.3.js"></script>
          <script src="/js/client.js"></script>
       </div>
-      <script>var APP_PROPS = {"name": "Andrew"};</script>
    </body>
 </html>
 ```
@@ -210,8 +210,8 @@ And Accelerator will use it to generate a page based on this:
       <div id="content">
          <view_elem />
       </div>
-      <post_elem />
       <script>var APP_PROPS=view_props;</script>
+      <post_elem />
    </body>
 </html>
 ```
