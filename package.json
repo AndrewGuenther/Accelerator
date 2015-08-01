@@ -1,6 +1,6 @@
 {
   "name": "accelerator",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "An Express view engine for React",
   "main": "index.js",
   "scripts": {
