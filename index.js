@@ -32,7 +32,7 @@ var Page = React.createClass({
                __html: buildDataString(this.props.app_props)
             }
          }),
-         this.props.post && React.createElement(this.props.post, this.props.post_props),
+         this.props.post && React.createElement(this.props.post, this.props.post_props)
       )
    }
 });
