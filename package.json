@@ -9,10 +9,11 @@
   "author": "Andrew Guenther",
   "license": "MIT",
   "dependencies": {
+    "node-jsx": "^0.13.3",
     "react": "^0.13.3"
   },
   "repository": {
-     "type": "git",
-     "url": "https://github.com/AndrewGuenther/Accelerator.git"
+    "type": "git",
+    "url": "https://github.com/AndrewGuenther/Accelerator.git"
   }
 }

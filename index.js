@@ -1,6 +1,7 @@
 "use strict";
 
 var React = require('react');
+require('node-jsx').install();
 
 function buildDataString(props) {
    return "var APP_PROPS = " + JSON.stringify(props) + ";";
