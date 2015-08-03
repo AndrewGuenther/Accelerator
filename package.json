@@ -4,7 +4,7 @@
   "description": "An Express view engine for React",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test"
   },
   "author": "Andrew Guenther",
   "license": "MIT",
@@ -15,5 +15,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/AndrewGuenther/Accelerator.git"
+  },
+  "devDependencies": {
+    "cheerio": "^0.19.0",
+    "nodeunit": "^0.9.1"
   }
 }
