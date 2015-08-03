@@ -26,14 +26,15 @@ var Page = React.createClass({
             this.props.app && React.createElement(Content, {
                app: this.props.app,
                data: this.props.app_props
-            })
-         ),
-         React.createElement("script", {
-            dangerouslySetInnerHTML: {
-               __html: buildDataString(this.props.app_props)
-            }
-         }),
-         this.props.post && React.createElement(this.props.post, this.props.post_props)
+            }),
+            React.createElement("script", {
+               id: "app-props",
+               dangerouslySetInnerHTML: {
+                  __html: buildDataString(this.props.app_props)
+               }
+            }),
+            this.props.post && React.createElement(this.props.post, this.props.post_props)
+         )
       )
    }
 });
