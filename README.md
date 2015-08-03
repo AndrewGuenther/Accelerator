@@ -1,4 +1,8 @@
 # Accelerator
+[![npm version](https://badge.fury.io/js/accelerator.svg)](http://badge.fury.io/js/accelerator)
+[![Build Status](https://travis-ci.org/AndrewGuenther/Accelerator.svg)](https://travis-ci.org/AndrewGuenther/Accelerator)
+[![Coverage Status](https://coveralls.io/repos/AndrewGuenther/Accelerator/badge.svg?branch=master&service=github)](https://coveralls.io/github/AndrewGuenther/Accelerator?branch=master)
+
 A [React][react] view engine for [Express][express] which supports client-side
 mounting.
 

@@ -1,10 +1,9 @@
 "use strict";
 
-var reporter = require('nodeunit').reporters.default;
-reporter.run(['test']);
-
 var cheerio = require('cheerio');
-var engine_render = require('../index.js').createEngine();
+var engine_render = process.env.ACCELERATOR_COV
+   ? require('../index-cov.js').createEngine()
+   : require('../index.js').createEngine()
 var render = function(view, options, test) {
    return engine_render(view, options, function(err, markup) {
       if (test) {
