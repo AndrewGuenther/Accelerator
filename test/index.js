@@ -142,3 +142,13 @@ exports.complexDocument = {
    }
 };
 
+exports.failures = {
+   viewDNE: function(test) {
+      test.expect(1);
+      engine_render('DNE.jsx', null, function(err, markup) {
+         test.equals(err.code, 'MODULE_NOT_FOUND',
+               'Unexpected error thrown for missing module');
+      });
+      test.done();
+   }
+}
